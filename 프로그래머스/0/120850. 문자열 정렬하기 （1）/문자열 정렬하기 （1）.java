@@ -5,7 +5,6 @@ class Solution {
         my_string = my_string.replaceAll("[^0-9]", "");
         String[] str = my_string.split("");
         int[] answer = new int[str.length];
-        System.out.println(str);
         for(int i = 0; i < str.length; i++) {
             answer[i] = Integer.parseInt(str[i]);
         }
